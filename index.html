@@ -8,53 +8,80 @@
     <link rel="stylesheet" href="projjject2.css">
       <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="header mt-5 mb-4 flex justify-center h-40 ">
-       <ul class=" bg-blue-600 flex justify-center list-none  rounded-t-3xl box-border border-white border-x-2 w-3/6  h-52 " >
-        <li>
-         <img src="aaditya2.jpeg" class="myphoto my-14 h-52 rounded-full border-blue-600  border-4 align-middle bg-white p-1 box-border  ">
+<body class="bg-slate-50 min-h-screen py-4 sm:py-8 font-sans">
+    <div class="header mt-5 flex justify-center relative z-10">
+       <ul class="bg-blue-600 flex justify-center list-none rounded-t-3xl box-border border-white border-x-2 w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 max-w-xl h-32 sm:h-44 relative">
+        <li class="absolute bottom-0 translate-y-1/4">
+         <img src="IMG_7243.jpeg" class="myphoto w-32 h-32 sm:w-48 sm:h-48 rounded-full border-blue-600 border-4 align-middle bg-white p-1 box-border object-cover">
         </li>
-      
-    </ul>
-</div>
-<div class="flex justify-center">
-<div class="inline-table border-x-2 border-b-2 rounded-b-3xl w-3/6  mb-5 shadow-slate-400 shadow-2xl">
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <p class=" -mt-0 flex justify-center text-4xl font-bold hover:text-red-600">
-        Aditya Verma 
-    </p>
-    <p class="flex justify-center text-xl text-slate-600">Coder & Educator</p>
-    <br/>
-    <br/>
-    <ul class="flex justify-center  ">
-    <li class="mx-6 text-5xl text-green-600"><a href="https://web.whatsapp.com/" target="none"><i class="fa-brands fa-whatsapp"></i></a></li>
-    <li class="mx-6 text-5xl text-blue-700"><a href="https://www.facebook.com/profile.php?id=100054161326962" target="none"><i class="fa-brands fa-facebook"></i></a></li>
-    <li class="mx-6 text-5xl text-red-700"><a href="https://www.youtube.com" target="none"><i class="fa-brands fa-youtube"></i></a></li>
-    <li class="mx-6 text-5xl text-pink-600 "><a href="https://www.instagram.com/aditya._.verma19/?next=%2F" target="none"><i class="fa-brands fa-instagram"></i></a><li>
+       </ul>
+    </div>
+    
+    <div class="flex justify-center relative z-0 -mt-[1px]">
+        <div class="block bg-white border-x-2 border-b-2 rounded-b-3xl w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 max-w-xl mb-5 shadow-slate-400 shadow-2xl pt-12 sm:pt-20 pb-6 px-4 sm:px-6">
+            <p class="flex justify-center text-3xl sm:text-4xl font-bold hover:text-red-600 transition-colors duration-300">
+                Aditya Verma 
+            </p>
+            <p class="flex justify-center text-lg sm:text-xl text-slate-600 mt-2">Coder & Educator</p>
+            
+            <div class="mt-8 flex flex-col items-center gap-6">
+                <!-- Row 1 of socials -->
+                <ul class="flex justify-center gap-4 sm:gap-6">
+                    <li class="text-4xl sm:text-5xl text-green-600 hover:scale-110 transition-transform duration-200">
+                        <a href="https://web.whatsapp.com/" target="none"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li class="text-4xl sm:text-5xl text-blue-700 hover:scale-110 transition-transform duration-200">
+                        <a href="https://www.facebook.com/profile.php?id=100054161326962" target="none"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="text-4xl sm:text-5xl text-red-700 hover:scale-110 transition-transform duration-200">
+                        <a href="https://www.youtube.com" target="none"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li class="text-4xl sm:text-5xl text-pink-600 hover:scale-110 transition-transform duration-200">
+                        <a href="https://www.instagram.com/aditya._.verma19/?next=%2F" target="none"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+                
+                <!-- Row 2 of socials -->
+                <ul class="flex justify-center gap-4 sm:gap-6">
+                    <li class="text-4xl sm:text-5xl text-blue-500 hover:scale-110 transition-transform duration-200">
+                        <a href="https://twitter.com/AdityaV38316406" target="none"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="text-4xl sm:text-5xl text-blue-900 hover:scale-110 transition-transform duration-200">
+                        <a href="https://www.linkedin.com/in/aditya-verma-00521922a/" target="none"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200">
+                        <a href="https://github.com/AdityaVerma19" target="none"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <ul class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-8 sm:mt-12">
+                <li>
+                    <button class="border-2 border-blue-500 bg-blue-500 text-white text-xl sm:text-2xl rounded-3xl py-2 px-8 sm:px-9 active:bg-blue-900 hover:bg-blue-600 transition-colors duration-300 w-44 sm:w-auto">
+                        Subscribe
+                    </button>
+                </li>
+                <li>
+                    <button class="border-2 border-blue-500 bg-blue-500 text-white text-xl sm:text-2xl rounded-3xl py-2 px-8 sm:px-9 active:bg-blue-900 hover:bg-blue-600 transition-colors duration-300 w-44 sm:w-auto">
+                        <a href="mailto:amarnathverma836@gmail.com" target="_blank" class="block w-full h-full">Message</a>
+                    </button>
+                </li>
+            </ul>
 
-    </ul>
-    <br/>
-<br/>
-    <ul class="flex justify-center">
-        <li class="mx-6 text-5xl text-blue-500"><a href="https://twitter.com/AdityaV38316406" target="none"><i class="fa-brands fa-twitter"></i></a></li>
-        <li class="mx-6 text-5xl text-blue-900"><a href="https://www.linkedin.com/in/aditya-verma-00521922a/" target="none"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="mx-6 text-5xl"><a href="https://github.com/AdityaVerma19" target="none"><i class="fa-brands fa-github"></i></a></li>    
-    </ul>
-    <ul class="flex justify-center mt-12">
-        <li class="mr-6"><button class=" border-2 bg-blue-500 text-white text-2xl rounded-3xl py-2 px-9 active:bg-blue-900 duration-300"> Subscribe</button></li>
-        <li><button class="border-2 bg-blue-500 text-white text-2xl rounded-3xl px-9  py-2 ml-6 active:bg-blue-900 duration-300"> <a href="mailto:amarnathverma836@gmail.com" target="_blank">Message </a></button></li>
-    </ul>
-
-<ul class="flex  place-content-evenly  mt-10 mb-5">
-    <li class=" text-4xl "><i class="fa-solid fa-heart text-red-600 active:text-white"></i> 60k</li> <li class="text-3xl text-slate-500 ">|</li>
-    <li class=" text-4xl"><i class="fa-solid fa-comments  text-yellow-500 active:text-orange-600"></i>  20k  </li> <li class="text-3xl text-slate-500">|</li>
-    <li class=" text-4xl "><i class="fa-solid fa-share  text-blue-900 active:text-blue-400"></i> 12k</li>
-
-</ul>
-</div>
-</div>
+            <ul class="flex justify-evenly mt-10 mb-5 text-slate-700">
+                <li class="text-xl sm:text-3xl flex items-center gap-2">
+                    <i class="fa-solid fa-heart text-red-600 active:text-white transition-colors duration-200 cursor-pointer"></i> 60k
+                </li>
+                <li class="text-lg sm:text-2xl text-slate-400">|</li>
+                <li class="text-xl sm:text-3xl flex items-center gap-2">
+                    <i class="fa-solid fa-comments text-yellow-500 active:text-orange-600 transition-colors duration-200 cursor-pointer"></i> 20k
+                </li>
+                <li class="text-lg sm:text-2xl text-slate-400">|</li>
+                <li class="text-xl sm:text-3xl flex items-center gap-2">
+                    <i class="fa-solid fa-share text-blue-900 active:text-blue-400 transition-colors duration-200 cursor-pointer"></i> 12k
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
